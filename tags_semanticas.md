@@ -19,7 +19,7 @@ O elemento **figure** é uma marcação de uso específico para a inserção de 
 
 ### footer
 O elemento **footer** representa um rodapé de um documento, como a área presente no final de uma página web. Normalmente é utilizado para descrever informações de autoria, como nome e contato do autor, e data de criação do conteúdo.
-
+----
 ## Semântica no nível do texto
 Além da semântica estrutural, o HTML nos permite descrever o significado de um conteúdo em nível de texto utilizando um conjunto de elementos semânticos. Assim, é possível, por exemplo, destacar os trechos de texto que devem receber algum tipo de destaque.
 
@@ -42,3 +42,9 @@ O elemento <cite> é utilizado para declarar que naquele trecho há uma citaçã
 <p>
 <q>Lorem ipsum dolor sit amet, consectetur </q> - <cite>http://br.lipsum.com/</cite>.
 </p>
+
+### time
+O elemento <time> é utilizado para representar datas. Assim, caso seja necessário informar a data em que um conteúdo foi escrito, podemos declarar a tag <time> e acrescentar a ela o atributo datetime para escrever a data de forma padronizada.
+
+<time datetime=”2017-04-07”>4/7</time>
+
